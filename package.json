@@ -1,0 +1,19 @@
+{
+  "name": "wcmd",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun build --compile --target=bun --outfile=wcmd ./index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "@opencode-ai/sdk": "^0.5.11"
+  }
+}
